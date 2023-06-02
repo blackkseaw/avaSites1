@@ -43,6 +43,11 @@
         font-size: 14px;
     }
 
+    .linha{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width: 425px) {
@@ -91,5 +96,14 @@
 
     .content p{
         font-size: 12px;
+    }
+
+    .sobre img{
+        height: 100px;
+    }
+
+    .linha{
+        display: flex;
+        flex-direction: column;
     }
 }

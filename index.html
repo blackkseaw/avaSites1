@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <title>Página Inicial</title>
+</head>
+
+<body>
+    <section class="navbar">
+        <div>
+            <h2>Café do Bairro</h2>
+        </div>
+        <div class="navlinks">
+            <a href="#main">Página Inicial</a>
+            <a href="#menu">Menu</a>
+            <a href="#sobre">Sobre</a>
+        </div>
+    </section>
+    <section id="main" class="main">
+        <div>
+            <h1>Bem-vindo ao Café do Bairro</h1>
+        </div>
+        <div class="imagem">
+            <img src="img/nathan-dumlao-6VhPY27jdps-unsplash.jpg" alt="Imagem capa">
+        </div>
+    </section>
+    <section class="content">
+        <h2>Aqui você encontra o melhor café!</h1>
+            <div class="contentp">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis accumsan pharetra nibh eget mollis.
+                    Fusce
+                    et mauris nec mi rutrum faucibus. Etiam mi nunc, scelerisque a sem in, consectetur placerat tortor.
+                    Fusce nec laoreet lorem. Praesent tellus turpis, suscipit eget odio eget, blandit pellentesque
+                    libero.
+                    In quis tempus massa. Aenean tellus libero, tincidunt ut efficitur et, condimentum eu arcu. Praesent
+                    vitae ipsum erat. Sed tincidunt nec metus id consequat. Nunc a posuere lectus.
+
+                    Maecenas faucibus libero vel urna maximus, luctus mattis arcu varius. Phasellus non venenatis metus,
+                    et
+                    interdum tortor. Vivamus dictum, quam a pharetra sodales, felis arcu suscipit nisl, id rutrum libero
+                    urna a tortor. Quisque pharetra leo at iaculis facilisis. Nullam vel odio sit amet nulla pretium
+                    pellentesque. Vestibulum fermentum ornare lectus, lacinia laoreet purus mattis ac. Sed molestie et
+                    sem
+                    non eleifend. Curabitur posuere velit arcu, vitae egestas eros ornare et. Mauris pharetra sagittis
+                    dui
+                    ac sollicitudin.
+
+                    Duis at odio suscipit turpis laoreet fermentum. Quisque vulputate, justo at ornare congue, mi felis
+                    pretium diam, vitae consectetur leo metus auctor nulla. Sed eleifend est eu justo hendrerit, sed
+                    viverra
+                    nisi gravida. Sed pulvinar eleifend nunc ac molestie. Etiam posuere vulputate sem, in commodo arcu
+                    posuere sit amet. Aenean at ligula elit. Nunc mollis velit sed feugiat posuere. Aenean dictum
+                    ultricies
+                    metus et sollicitudin. Vivamus ut vulputate turpis. Maecenas tincidunt velit lectus, a euismod lacus
+                    aliquet sit</p>
+            </div>
+    </section>
+    <section id="menu" class="menu">
+        <h2>Cafés que produzimos</h1>
+            <div class="menubox">
+                <div class="coluna">
+                    <h3>NOME</h3>
+                    <ul type="disc">
+                        <li>CAFE PRETO</li>
+                        <li>CAFEZIN</li>
+                        <li>CAFE BOM</li>
+                        <li>CAFE RUIM</li>
+                    </ul>
+                </div>
+                <div class="coluna">
+                    <h3>DISPONIBILIDAE</h3>
+                    <ul type="disc">
+                        <li>DISPONIVEL</li>
+                        <li>DISPONIVEL</li>
+                        <li>INDISPONIVEL</li>
+                        <li>DISPONIVEL</li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+    <section id="sobre" class="sobre">
+        <h2>Sobre</h2>
+        <div class="linha">
+            <div>
+                <h3>Contato e local</h3>
+                <ul type="disc">
+                    <li>Email: cafe@cafe</li>
+                    <li>(48)9999999999</li>
+                    <li>Endereço muito doido</li>
+                    <li>Segunda a sexta, 9 as 19h</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Como chegar</h3>
+                <img src="img/mapa1.png">
+            </div>
+            <div>
+                <h3>Entre em contato</h3>
+                
+                    <div class="formdiv">
+                        <h3>Fomulário</h3>
+                    </div>
+        
+                    <div class="centerr">
+                        <form action=”script.php” method=”post”>
+        
+                            <div class="formdiv">
+                                <label>Usuário</label>
+                                <input type=”text” name=”usuario” value='' required />
+                            </div>
+                            <div class="formemail">
+                                <label>Email</label>
+                                <input type=”email” name=”email” value='' required />
+                            </div>
+                            <div class="formsenha">
+                                <label>Senha</label>
+                                <input type="password" name="password" value="" required />
+                            </div>
+                            <div class="formdiv">
+                                <input type="submit" name="submit" value="Submit" onsubmit="return validarSenha();" required />
+                            </div>
+                        </form>
+                    </div>
+               
+            </div>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>

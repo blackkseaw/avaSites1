@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+:root{
+    --darkbrown: #29231f;
+    --darkkindabrown: #36302c;
+    --lightdarkbrown:#403a35;
+    --orangeyellowish: #de7b40;
+    --lightyellow: #f0c674;
+    --lightlightyellow: #f9e7bb;
+}
+
+*, html{
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: #fff;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    background-color: var(--darkbrown);
+    color: aliceblue;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar h2{
+    font-family: 'Poppins', sans-serif;
+    color: var(--lightlightyellow);
+    font-size: 30px;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navlinks a{
+    color: #fff;
+    margin-left: 2px;
+    font-size: 16px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.main h1{
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.main img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
+
+.imagem{
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+}
+
+.content{
+    height: 100vh;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content p{
+    font-size: 15px;
+}
+
+.contentp{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:var(--lightyellow  );
+}
+
+.menubox{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #29231f;
+    height: min-content;
+    width: 70%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+
+.sobre img{
+    height: 200px;
+}
+
